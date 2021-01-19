@@ -1,0 +1,78 @@
+body {
+	font-family:Elephant;
+	background:url('abstract-metallic-red-black-frame-layout-modern-tech-design_71775-312.jpg') no-repeat;
+	background-size:cover !important;
+}
+
+#digitalClock {
+	text-align:center;
+	font-weight:bolder;
+	font-size:65px;
+    margin:50px auto 0px auto;
+	color: red;
+	letter-spacing: 3px;
+	background-color:#666;
+	width:500px;
+	border-radius:25px;
+}
+
+
+div {
+	width:289px;
+	margin:50px auto;
+	border:5px solid black;
+	border-radius: 5%;
+	background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+	height:auto;
+}
+
+button {
+	width:60px;
+	height:47px;
+	margin:4px;
+	font-size:25px;
+	border-radius:20%;
+	background-color:#FEFEFE;
+}
+
+button:hover {box-shadow:3px 3px 2px 2px;}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+	supported by Chrome, Opera and Firefox */
+  }
+
+
+
+input {
+	max-width:265px;
+	margin:8px;
+	color:white;
+	background-color:black;
+	padding-left:3px;
+	height:60px;
+	font-size:25px;
+}
+
+#del {background-color:#FF3547}
+
+#backBtn,#leftBracket,#rightBracket {background-color:#F39C11;}
+
+#equalBtn,#ans {background-color:#2BBBAD;}
+
+#plusBtn, #minusBtn, #multiplyBtn, #divideBtn {background-color:#B450FE;}
+
+#version {
+	color:#EEE;
+	width:85px;
+	text-align:center;
+	margin:5px auto;
+	border-top: 3px solid #EEE;
+	border-bottom: 3px solid #EEE;
+}
+#ans {font-size:20px;}

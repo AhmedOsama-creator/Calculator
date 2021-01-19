@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+    </head>
+    <body class="noselect">
+
+<!--Start Digital Clock-->
+    <div id="digitalClock"></div>
+<!--End Digital Clock-->
+
+<!--Start Calculator-->
+
+        <div class="calculator">
+
+           <input id="display" type="text" name="display" disabled><br/>
+
+            <button id="del" onclick="clearBtn()">AC</button>
+            <button id="backBtn" onclick="backBtn()">CE</button>
+            <button id="leftBracket" onclick="updateDisplay('(')">(</button>
+            <button id="rightBracket" onclick="updateDisplay(')')">)</button>
+            
+            <br/>  
+            
+            <button id="square" onclick="sqRoot()">√</button>
+            <button id="absValue" onclick="absValue()">| |</button>
+            <button id="power" onclick="pow(2,5)">^</button>
+            <button id="divideBtn" onclick="updateDisplayOperators('/')">&divide;</button>
+            
+            <br/>
+
+            <button id="7" onclick="updateDisplay(7)">7</button>
+            <button id="8" onclick="updateDisplay(8)">8</button>
+            <button id="9" onclick="updateDisplay(9)">9</button>
+            <button id="multiplyBtn" onclick="updateDisplayOperators('*')">&times;</button>
+            
+            <br/>
+                
+            <button id="4" onclick="updateDisplay(4)">4</button>
+            <button id="5" onclick="updateDisplay(5)">5</button>
+            <button id="6" onclick="updateDisplay(6)">6</button>
+            <button id="minusBtn" onclick="updateDisplayOperators('-')">-</button>
+
+            <br/>
+
+            <button id="1" onclick="updateDisplay(1)">1</button>
+            <button id="2" onclick="updateDisplay(2)">2</button>
+            <button id="3" onclick="updateDisplay(3)">3</button>
+            <button id="plusBtn" onclick="updateDisplayOperators('+')">+</button>
+
+            <br/>
+
+            <button id="dotBtn" onclick="updateDisplay('.')">.</button>
+            <button class="0" onclick="updateDisplay(0)">0</button>
+            <button id="equalBtn" onclick="calcOperation()">=</button>
+            <button id="ans" onclick="ansVal()">ANS</button>
+<!--End Calculator-->   
+        </div>
+        <!--Version Of Calcualator-->
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
+    
